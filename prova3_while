@@ -1,0 +1,10 @@
+soma_num = 0
+quant_num = 0
+while True:
+    numeros = int(input("Digite um número inteiro: "))
+    if numeros==0:
+        break
+    quant_num = quant_num + 1
+    soma_num = soma_num + numeros
+    media = soma_num/quant_num
+print(f"A quantidade de números digitados foi {quant_num}, a soma dos números foi {soma_num} e a média aritmética dos números foi {media}.")
